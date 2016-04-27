@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		BC7F1D2E1CBF9D8E00A43428 /* DES */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DES; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7F1D311CBF9D8E00A43428 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BC7F1D381CBFD73E00A43428 /* bool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bool.h; sourceTree = "<group>"; };
+		BC7F1D3B1CBFDA4100A43428 /* tables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tables.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				BC7F1D311CBF9D8E00A43428 /* main.c */,
+				BC7F1D381CBFD73E00A43428 /* bool.h */,
+				BC7F1D3B1CBFDA4100A43428 /* tables.h */,
 			);
 			path = DES;
 			sourceTree = "<group>";
@@ -239,6 +243,7 @@
 				BC7F1D371CBF9D8E00A43428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
